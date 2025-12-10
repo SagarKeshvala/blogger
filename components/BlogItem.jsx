@@ -30,7 +30,7 @@ const BlogItem = ({ id, title, category, description, image }) => {
 					className="inline-flex items-center py-2 font-semibold text-center"
 				>
 					Read More{" "}
-					<Image src={assets.arrow} alt="" width={12} className="ml-2" />
+					<Image src={assets.arrow} alt="arrow" width={12} className="ml-2" />
 				</Link>
 			</div>
 		</div>
