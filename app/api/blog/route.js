@@ -2,6 +2,6 @@ const { NextResponse } = require("next/server");
 
 export async function GET(request) {
 	return NextResponse.json({
-		msg: "API is working!",
+		msg: "API is working perfectly!",
 	});
 }
